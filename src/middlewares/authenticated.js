@@ -2,7 +2,7 @@
 
 var jwt = require('jwt-simple');
 var moment = require('moment');
-var secret = 'clave_secreta_curso_desarrollar_red_social_angular';
+var secret = 'clave_secreta';
 
 function createToken(nuevo) {
     var payload = {
